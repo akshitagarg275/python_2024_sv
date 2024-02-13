@@ -23,8 +23,8 @@
 # Boolean -> True/False
 is_valid = True
 is_valid = False
-print("value in is_valid: ", is_valid)
-print("type of is_valid: ", type(is_valid))
+# print("value in is_valid: ", is_valid)
+# print("type of is_valid: ", type(is_valid))
 
 
 
