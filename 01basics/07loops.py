@@ -62,6 +62,11 @@ for element in iterable:
 # for s in str:
 #     print(s, end="")
 
+# fruits = ("apple", "orange", "grapes", "guava")
+
+# for f in fruits:
+#     print(f)
+
 
 # *********find the no of digits entered by the user
 # num = int(input("Enter a number: "))
@@ -74,13 +79,78 @@ for element in iterable:
 
 
 # *********adding the digits of the no entered
-num = int(input("Enter a number: "))
-sum = 0
-while num > 0:
-    rem = num % 10
-    print("rem: ", rem)
-    sum = sum + rem
-    num = num // 10  #re-initializer
-    print("Num re-initialising: ", num)
+# num = int(input("Enter a number: "))
+# sum = 0
+# while num > 0:
+#     rem = num % 10
+#     print("rem: ", rem)
+#     sum = sum + rem
+#     num = num // 10  #re-initializer
+#     print("Num re-initialising: ", num)
 
-print("sum of digits: ", sum)
+# print("sum of digits: ", sum)
+
+# ********multiplying the digits of the no entered and also count the no of digits
+# ******** find whether entered no is pallindrome or not -> 121 
+
+# reverse a number
+# num = int(input("Enter a number: "))
+# rev = 0
+# while num > 0:
+#     rem = num % 10
+#     # print(rem)
+#     rev = (rev * 10 ) + rem
+#     print(rev)
+#     num = num // 10 #updating the num
+
+# print("reverse is : ", rev)
+
+
+# ****************else part inside the loops
+# else part statements executes only on complete loop execution
+
+# fruits = ("apple", "orange", "grapes", "guava")
+
+# for f in fruits:
+#     print(f)
+# else:
+#     print("Loop execution completed")
+
+
+# **********jump statements 
+'''
+break -> to break the normal execution 
+continue -> to skip the iteration
+pass -> to bypass the things
+'''
+
+# for i in range(10):
+#     if i == 5:
+#         break
+#     print(i)
+
+# else:
+#     print("Loop executed successfully")
+
+
+# for i in range(10):
+#     if i == 5:
+#         continue
+#     print(i)
+
+# else:
+#     print("Loop executed successfully")
+
+
+# num = 1
+# while num < 5:
+#     pass
+
+# ***********infinite loop
+# while True:
+#     print("Infite condition")
+
+# run = 1
+
+# while run:
+#     print("Do something!!")
