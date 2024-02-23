@@ -50,6 +50,10 @@ these allow us to add heterogeneous datatypes
 # ****************removing duplicates from the list
 fruits = ["guava", "papaya", "mango", "grapes", "apple", "apple"]
 
+# ********pop
+# print(fruits.pop(3))
+# print("fruits after pop:", fruits )
+
 # while fruits.count("apple"):
 #     fruits.remove("apple")
 # print(fruits)
@@ -71,4 +75,7 @@ fruits = ["guava", "papaya", "mango", "grapes", "apple", "apple"]
 # fruits.sort()
 # print("after sort: ", fruits)
 
+# fruits = ["guava", "papaya", "mango", "grapes", "apple", "apple"]
+# print(fruits.reverse())
+# print("fruits list after reverse: ", fruits)
 
