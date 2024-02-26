@@ -79,3 +79,13 @@ fruits = ["guava", "papaya", "mango", "grapes", "apple", "apple"]
 # print(fruits.reverse())
 # print("fruits list after reverse: ", fruits)
 
+
+# operations
+
+# nums = [1,2,3,4]
+nums = list(range(1,5))
+# print(nums * 3)
+num2 = [5,6,7]
+
+print(nums + num2)
+

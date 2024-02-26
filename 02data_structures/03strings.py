@@ -50,3 +50,76 @@ st = "wearelearningpython"
 # st ="12124"
 # print(st.isdigit())
 
+#TODO: strip
+# st = "      wearelearningpython       "
+# st = "@@@@@@@@@wearelearningpython"
+
+# print(st.lstrip('#'))
+# print(st.rstrip())
+# print(st.strip())
+
+#TODO: replace
+st = "we are learning python"
+
+# new_str = st.replace('a','@', 1)
+# print(new_str)
+
+#TODO: split
+# print(st.split(' ' ,2))
+# print(st.split('a'))
+
+# email = 'john.doe@google.com'
+# print(email.split('@')[1])
+
+# nums = input("Please enter the nums separated by comma").split(',')
+# print(nums)
+
+#TODO: join
+fname = "John"
+lname = "doe"
+uname = '.'.join([fname , lname])
+# uname = ".".join([fname , lname, '007'])
+# uname = "@".join([fname , lname, '007'])
+
+# print(uname)
+# domain = "google.com"
+
+# email = '@'.join([uname, domain])
+# print(email)
+
+
+# *************escape sequences
+# path = r"C:\new_folder\backup\all"
+# print(path)
+
+'''
+\" -> "
+\' -> '
+\\ -> \
+\n -> new line
+\b -> back space
+'''
+
+st = "'python'"
+st = '\'hey there\''
+# print(st)
+
+# TODO: concatenation
+# print("1" + "2")
+# print("John " + "Doe")
+
+# print("John " * 3)
+
+
+# *******formatting the strings
+num1 = 5
+num2 = 2
+ans = num1 + num2  #7
+# 5 + 2 = 7
+# print(str(num1) + " + " + str(num2) + " = " + str(ans))
+
+# print("{0} + {1} = {2}".format(num1,num2, ans))
+# print("{1} + {0} = {2}".format(num1,num2, ans))
+
+# f-strings
+print(f"{num1} + {num2} = {ans}")
