@@ -122,4 +122,34 @@ ans = num1 + num2  #7
 # print("{1} + {0} = {2}".format(num1,num2, ans))
 
 # f-strings
-print(f"{num1} + {num2} = {ans}")
+# print(f"{num1} + {num2} = {ans}")
+
+# TODO: WAP to know if the given string is pallindrome or not
+# madam
+
+word = "madam"
+rev_word = word[::-1]
+# print(rev_word)
+
+# if word == rev_word:
+#     print("It is a pallindrome")
+# else:
+#     print("It is not a pallindrome")
+
+# TODO: WAP to check if the strings is anagram
+# silent
+# listen
+
+# w1 = "silent"
+# w2 = "listen"
+
+# w1 = "mad"
+# w2 = "dam"
+
+# print(sorted(w1))
+# print(sorted(w2))
+
+# if sorted(w1) == sorted(w2):
+#     print("It is anagram")
+# else:
+#     print("It is not an anagram")

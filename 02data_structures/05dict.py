@@ -44,19 +44,31 @@ stu = {
 # print(d2)
 
 
-word = "Python Programming"
+# word = "Python Programming"
 # keep a count of each char in the string
 
+# freq = {}
+
+# for ch in word:
+#     # if key already exists
+#     if (freq.get(ch) != None):
+#         freq[ch] = freq[ch] + 1
+
+#     else:
+#         # first time
+#         freq[ch] = 1
+
+# print(freq)
+
+sen = "Hey how are you, we are learning python"
+words = sen.split(" ")
+# print(words)
 freq = {}
 
-for ch in word:
-    # if key already exists
-    if (freq.get(ch) != None):
-        freq[ch] = freq[ch] + 1
-
+for w in words:
+    if (freq.get(w) != None):
+        freq[w] = freq[w] + 1
     else:
-        # first time
-        freq[ch] = 1
+        freq[w] = 1
 
-print(freq)
-
+# print(freq)

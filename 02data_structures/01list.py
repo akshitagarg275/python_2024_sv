@@ -87,5 +87,20 @@ nums = list(range(1,5))
 # print(nums * 3)
 num2 = [5,6,7]
 
-print(nums + num2)
+# print(nums + num2)
+
+
+nums = [23,113,4,52,1,89]
+# print(max(nums))
+
+max_ele = nums[0]
+for num in nums:
+    if max_ele < num:
+        max_ele = num
+    # print("max num is: ", max_ele)
+# for loop else
+else:
+    # print("Other case")
+    print("max num is: ", max_ele)
+
 
