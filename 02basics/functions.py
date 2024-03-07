@@ -156,3 +156,51 @@ var_name = lambda args: return params
 
 
 
+add = lambda a,b : a + b
+
+# print(add(2,3))
+
+# map -> to create another list from the exisiting one using some logic
+nums = [2,4,5,7,6,8]
+# sqr_nums = list(map(lambda x : x ** 2, nums))
+# print(sqr_nums)
+
+# filter -> to filter out the elements
+# even_nums = list(filter(lambda x : x % 2 == 0, nums))
+# print(even_nums)
+
+# greater_than_5 = list(filter(lambda x : x > 5, nums))
+# print(greater_than_5)
+
+
+
+# reduce
+# from functools import reduce
+# mul = reduce(lambda a,b : a * b , nums)
+# print(mul)
+
+
+# *************************if-else in lambda
+# lambda <arguments> : <if statement> if <condition> else <else statement>
+# def res(num):
+#     if num %2 == 0:
+#         return f"{num} is even"
+#     else:
+#         return f"{num} is odd"
+    
+# res = lambda num = 30 : f"{num} is even" if num %2 == 0 else f"{num} is odd"
+
+# print(res(22))
+# print(res(5))
+
+# result = list(map(res , nums))
+# print(result)
+
+# print(res())  
+
+# ***************if, else, elif
+# lambda <args> : <if condition> if <condition > ( <2nd if condition> if <condition> else <else statement>)
+# check if two numbers is equal , greater than or lesser
+
+res = lambda a ,b : f"{a} is smaller than {b}" if a<b else (f"{a} is greater than b" if a > b else f"{a} is equal to {b}")
+print(res(4,4))
